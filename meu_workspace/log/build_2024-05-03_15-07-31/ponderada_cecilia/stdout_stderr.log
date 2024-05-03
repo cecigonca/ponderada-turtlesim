@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/ponderada_cecilia/ponderada_cecilia.egg-info/PKG-INFO
+writing dependency_links to ../../build/ponderada_cecilia/ponderada_cecilia.egg-info/dependency_links.txt
+writing entry points to ../../build/ponderada_cecilia/ponderada_cecilia.egg-info/entry_points.txt
+writing requirements to ../../build/ponderada_cecilia/ponderada_cecilia.egg-info/requires.txt
+writing top-level names to ../../build/ponderada_cecilia/ponderada_cecilia.egg-info/top_level.txt
+reading manifest file '../../build/ponderada_cecilia/ponderada_cecilia.egg-info/SOURCES.txt'
+writing manifest file '../../build/ponderada_cecilia/ponderada_cecilia.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ponderada_cecilia/ponderada.py -> /home/cecilia/Documentos/github/meu_workspace/build/ponderada_cecilia/build/lib/ponderada_cecilia
+running install
+running install_lib
+copying /home/cecilia/Documentos/github/meu_workspace/build/ponderada_cecilia/build/lib/ponderada_cecilia/ponderada.py -> /home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia/lib/python3.10/site-packages/ponderada_cecilia
+byte-compiling /home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia/lib/python3.10/site-packages/ponderada_cecilia/ponderada.py to ponderada.cpython-310.pyc
+Sorry: IndentationError: expected an indented block after 'while' statement on line 34 (ponderada.py, line 35)
+running install_data
+running install_egg_info
+removing '/home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia/lib/python3.10/site-packages/ponderada_cecilia-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/ponderada_cecilia/ponderada_cecilia.egg-info to /home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia/lib/python3.10/site-packages/ponderada_cecilia-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ponderada script to /home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia/lib/ponderada_cecilia
+writing list of installed files to '/home/cecilia/Documentos/github/meu_workspace/build/ponderada_cecilia/install.log'

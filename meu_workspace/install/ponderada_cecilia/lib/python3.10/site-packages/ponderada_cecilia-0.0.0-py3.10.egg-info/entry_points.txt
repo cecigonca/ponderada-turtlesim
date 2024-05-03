@@ -1,0 +1,3 @@
+[console_scripts]
+ponderada = ponderada_cecilia.ponderada:main
+

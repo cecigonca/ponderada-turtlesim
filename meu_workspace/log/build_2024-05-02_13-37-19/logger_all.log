@@ -1,0 +1,230 @@
+[0.185s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.186s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x74f3f3717f70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74f3f3717af0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74f3f3717af0>>)
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.451s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/cecilia/Documentos/github/meu_workspace'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/ponderada_cecilia) by extensions ['ignore', 'ignore_ament_install']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/ponderada_cecilia) by extension 'ignore'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/ponderada_cecilia) by extension 'ignore_ament_install'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/ponderada_cecilia) by extensions ['colcon_pkg']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/ponderada_cecilia) by extension 'colcon_pkg'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/ponderada_cecilia) by extensions ['colcon_meta']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/ponderada_cecilia) by extension 'colcon_meta'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/ponderada_cecilia) by extensions ['ros']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/ponderada_cecilia) by extension 'ros'
+[0.482s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ponderada_cecilia' with type 'ros.ament_python' and name 'ponderada_cecilia'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore_ament_install'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_pkg']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_pkg'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_meta']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_meta'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ros']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ros'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['cmake', 'python']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'cmake'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['python_setup_py']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python_setup_py'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) ignored
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) ignored
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extension 'ignore'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) ignored
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ros']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ros'
+[0.489s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.531s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 384 installed packages in /opt/ros/humble
+[0.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.631s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'turtlesim' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding turtlesim
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'ponderada_cecilia' build argument 'cmake_args' from command line to 'None'
+[0.633s] Level 5:colcon.colcon_core.verb:set package 'ponderada_cecilia' build argument 'cmake_target' from command line to 'None'
+[0.633s] Level 5:colcon.colcon_core.verb:set package 'ponderada_cecilia' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.633s] Level 5:colcon.colcon_core.verb:set package 'ponderada_cecilia' build argument 'cmake_clean_cache' from command line to 'False'
+[0.633s] Level 5:colcon.colcon_core.verb:set package 'ponderada_cecilia' build argument 'cmake_clean_first' from command line to 'False'
+[0.633s] Level 5:colcon.colcon_core.verb:set package 'ponderada_cecilia' build argument 'cmake_force_configure' from command line to 'False'
+[0.633s] Level 5:colcon.colcon_core.verb:set package 'ponderada_cecilia' build argument 'ament_cmake_args' from command line to 'None'
+[0.633s] Level 5:colcon.colcon_core.verb:set package 'ponderada_cecilia' build argument 'catkin_cmake_args' from command line to 'None'
+[0.633s] Level 5:colcon.colcon_core.verb:set package 'ponderada_cecilia' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.633s] DEBUG:colcon.colcon_core.verb:Building package 'ponderada_cecilia' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cecilia/Documentos/github/meu_workspace/build/ponderada_cecilia', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia', 'merge_install': False, 'path': '/home/cecilia/Documentos/github/meu_workspace/src/ponderada_cecilia', 'symlink_install': False, 'test_result_base': None}
+[0.634s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[0.634s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[0.634s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.634s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.634s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[0.634s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[0.634s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[0.634s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.634s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.635s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cecilia/Documentos/github/meu_workspace/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim', 'merge_install': False, 'path': '/home/cecilia/Documentos/github/meu_workspace/src/ros_tutorials/turtlesim', 'symlink_install': False, 'test_result_base': None}
+[0.635s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.637s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.637s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/cecilia/Documentos/github/meu_workspace/src/ponderada_cecilia' with build type 'ament_python'
+[0.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('ponderada_cecilia', 'ament_prefix_path')
+[0.709s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia/share/ponderada_cecilia/hook/ament_prefix_path.ps1'
+[0.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia/share/ponderada_cecilia/hook/ament_prefix_path.dsv'
+[0.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia/share/ponderada_cecilia/hook/ament_prefix_path.sh'
+[0.751s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.751s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.766s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cecilia/Documentos/github/meu_workspace/src/ros_tutorials/turtlesim' with build type 'ament_cmake'
+[0.766s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cecilia/Documentos/github/meu_workspace/src/ros_tutorials/turtlesim'
+[0.767s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.767s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.207s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/cecilia/Documentos/github/meu_workspace/src/ponderada_cecilia'
+[1.208s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.208s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cecilia/Documentos/github/meu_workspace/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cecilia/Documentos/github/meu_workspace/build/turtlesim -- -j8 -l8
+[2.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cecilia/Documentos/github/meu_workspace/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cecilia/Documentos/github/meu_workspace/build/turtlesim -- -j8 -l8
+[2.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cecilia/Documentos/github/meu_workspace/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cecilia/Documentos/github/meu_workspace/build/turtlesim
+[3.059s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[3.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cecilia/Documentos/github/meu_workspace/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cecilia/Documentos/github/meu_workspace/build/turtlesim
+[3.083s] Level 1:colcon.colcon_core.environment:checking '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim' for CMake module files
+[3.084s] Level 1:colcon.colcon_core.environment:checking '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim' for CMake config files
+[3.086s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[3.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[3.087s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[3.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[3.100s] Level 1:colcon.colcon_core.environment:checking '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/lib'
+[3.101s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[3.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[3.102s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[3.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[3.115s] Level 1:colcon.colcon_core.environment:checking '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/bin'
+[3.115s] Level 1:colcon.colcon_core.environment:checking '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[3.115s] Level 1:colcon.colcon_core.environment:checking '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/lib/python3.10/site-packages'
+[3.116s] Level 1:colcon.colcon_core.environment:checking '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/bin'
+[3.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/share/turtlesim/package.ps1'
+[3.130s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/share/turtlesim/package.dsv'
+[3.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/share/turtlesim/package.sh'
+[3.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/share/turtlesim/package.bash'
+[3.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/share/turtlesim/package.zsh'
+[3.187s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/share/colcon-core/packages/turtlesim)
+[3.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cecilia/Documentos/github/meu_workspace/src/ponderada_cecilia': PYTHONPATH=/home/cecilia/Documentos/github/meu_workspace/build/ponderada_cecilia/prefix_override:/home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ponderada_cecilia build --build-base /home/cecilia/Documentos/github/meu_workspace/build/ponderada_cecilia/build install --record /home/cecilia/Documentos/github/meu_workspace/build/ponderada_cecilia/install.log --single-version-externally-managed install_data
+[3.531s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[3.532s] Level 1:colcon.colcon_core.environment:checking '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim' for CMake module files
+[3.533s] Level 1:colcon.colcon_core.environment:checking '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim' for CMake config files
+[3.534s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[3.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[3.535s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[3.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[3.537s] Level 1:colcon.colcon_core.environment:checking '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/lib'
+[3.537s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[3.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[3.538s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[3.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[3.539s] Level 1:colcon.colcon_core.environment:checking '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/bin'
+[3.540s] Level 1:colcon.colcon_core.environment:checking '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[3.540s] Level 1:colcon.colcon_core.environment:checking '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/lib/python3.10/site-packages'
+[3.541s] Level 1:colcon.colcon_core.environment:checking '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/bin'
+[3.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/share/turtlesim/package.ps1'
+[3.542s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/share/turtlesim/package.dsv'
+[3.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/share/turtlesim/package.sh'
+[3.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/share/turtlesim/package.bash'
+[3.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/share/turtlesim/package.zsh'
+[3.545s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cecilia/Documentos/github/meu_workspace/install/turtlesim/share/colcon-core/packages/turtlesim)
+[3.703s] Level 1:colcon.colcon_core.environment:checking '/home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia' for CMake module files
+[3.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cecilia/Documentos/github/meu_workspace/src/ponderada_cecilia' returned '0': PYTHONPATH=/home/cecilia/Documentos/github/meu_workspace/build/ponderada_cecilia/prefix_override:/home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ponderada_cecilia build --build-base /home/cecilia/Documentos/github/meu_workspace/build/ponderada_cecilia/build install --record /home/cecilia/Documentos/github/meu_workspace/build/ponderada_cecilia/install.log --single-version-externally-managed install_data
+[3.705s] Level 1:colcon.colcon_core.environment:checking '/home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia' for CMake config files
+[3.706s] Level 1:colcon.colcon_core.environment:checking '/home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia/lib'
+[3.706s] Level 1:colcon.colcon_core.environment:checking '/home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia/bin'
+[3.706s] Level 1:colcon.colcon_core.environment:checking '/home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia/lib/pkgconfig/ponderada_cecilia.pc'
+[3.707s] Level 1:colcon.colcon_core.environment:checking '/home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia/lib/python3.10/site-packages'
+[3.707s] Level 1:colcon.colcon_core.shell:create_environment_hook('ponderada_cecilia', 'pythonpath')
+[3.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia/share/ponderada_cecilia/hook/pythonpath.ps1'
+[3.708s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia/share/ponderada_cecilia/hook/pythonpath.dsv'
+[3.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia/share/ponderada_cecilia/hook/pythonpath.sh'
+[3.720s] Level 1:colcon.colcon_core.environment:checking '/home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia/bin'
+[3.721s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ponderada_cecilia)
+[3.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia/share/ponderada_cecilia/package.ps1'
+[3.722s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia/share/ponderada_cecilia/package.dsv'
+[3.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia/share/ponderada_cecilia/package.sh'
+[3.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia/share/ponderada_cecilia/package.bash'
+[3.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia/share/ponderada_cecilia/package.zsh'
+[3.725s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia/share/colcon-core/packages/ponderada_cecilia)
+[3.725s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.726s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.726s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.726s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.770s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.771s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.771s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.792s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.792s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cecilia/Documentos/github/meu_workspace/install/local_setup.ps1'
+[3.802s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cecilia/Documentos/github/meu_workspace/install/_local_setup_util_ps1.py'
+[3.809s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cecilia/Documentos/github/meu_workspace/install/setup.ps1'
+[3.824s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cecilia/Documentos/github/meu_workspace/install/local_setup.sh'
+[3.837s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cecilia/Documentos/github/meu_workspace/install/_local_setup_util_sh.py'
+[3.850s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cecilia/Documentos/github/meu_workspace/install/setup.sh'
+[3.864s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cecilia/Documentos/github/meu_workspace/install/local_setup.bash'
+[3.878s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cecilia/Documentos/github/meu_workspace/install/setup.bash'
+[3.892s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cecilia/Documentos/github/meu_workspace/install/local_setup.zsh'
+[3.905s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cecilia/Documentos/github/meu_workspace/install/setup.zsh'

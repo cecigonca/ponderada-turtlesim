@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/ponderada_cecilia/ponderada_cecilia.egg-info/PKG-INFO
+../../build/ponderada_cecilia/ponderada_cecilia.egg-info/SOURCES.txt
+../../build/ponderada_cecilia/ponderada_cecilia.egg-info/dependency_links.txt
+../../build/ponderada_cecilia/ponderada_cecilia.egg-info/entry_points.txt
+../../build/ponderada_cecilia/ponderada_cecilia.egg-info/requires.txt
+../../build/ponderada_cecilia/ponderada_cecilia.egg-info/top_level.txt
+../../build/ponderada_cecilia/ponderada_cecilia.egg-info/zip-safe
+ponderada_cecilia/__init__.py
+ponderada_cecilia/ponderada.py
+resource/ponderada_cecilia
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

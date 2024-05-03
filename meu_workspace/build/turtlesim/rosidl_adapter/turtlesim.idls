@@ -1,0 +1,8 @@
+/home/cecilia/Documentos/github/meu_workspace/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl
+/home/cecilia/Documentos/github/meu_workspace/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl
+/home/cecilia/Documentos/github/meu_workspace/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl
+/home/cecilia/Documentos/github/meu_workspace/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl
+/home/cecilia/Documentos/github/meu_workspace/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl
+/home/cecilia/Documentos/github/meu_workspace/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl
+/home/cecilia/Documentos/github/meu_workspace/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl
+/home/cecilia/Documentos/github/meu_workspace/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl

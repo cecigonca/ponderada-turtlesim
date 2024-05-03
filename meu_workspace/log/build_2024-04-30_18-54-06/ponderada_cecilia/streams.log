@@ -1,0 +1,21 @@
+[0.515s] Invoking command in '/home/cecilia/Documentos/github/meu_workspace/src/ponderada_cecilia': PYTHONPATH=/home/cecilia/Documentos/github/meu_workspace/build/ponderada_cecilia/prefix_override:/home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ponderada_cecilia build --build-base /home/cecilia/Documentos/github/meu_workspace/build/ponderada_cecilia/build install --record /home/cecilia/Documentos/github/meu_workspace/build/ponderada_cecilia/install.log --single-version-externally-managed install_data
+[0.696s] running egg_info
+[0.697s] writing ../../build/ponderada_cecilia/ponderada_cecilia.egg-info/PKG-INFO
+[0.697s] writing dependency_links to ../../build/ponderada_cecilia/ponderada_cecilia.egg-info/dependency_links.txt
+[0.698s] writing entry points to ../../build/ponderada_cecilia/ponderada_cecilia.egg-info/entry_points.txt
+[0.699s] writing requirements to ../../build/ponderada_cecilia/ponderada_cecilia.egg-info/requires.txt
+[0.699s] writing top-level names to ../../build/ponderada_cecilia/ponderada_cecilia.egg-info/top_level.txt
+[0.700s] reading manifest file '../../build/ponderada_cecilia/ponderada_cecilia.egg-info/SOURCES.txt'
+[0.719s] writing manifest file '../../build/ponderada_cecilia/ponderada_cecilia.egg-info/SOURCES.txt'
+[0.719s] running build
+[0.719s] running build_py
+[0.719s] running install
+[0.719s] running install_lib
+[0.719s] running install_data
+[0.719s] running install_egg_info
+[0.719s] removing '/home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia/lib/python3.10/site-packages/ponderada_cecilia-0.0.0-py3.10.egg-info' (and everything under it)
+[0.719s] Copying ../../build/ponderada_cecilia/ponderada_cecilia.egg-info to /home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia/lib/python3.10/site-packages/ponderada_cecilia-0.0.0-py3.10.egg-info
+[0.719s] running install_scripts
+[0.737s] Installing ponderada script to /home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia/lib/ponderada_cecilia
+[0.738s] writing list of installed files to '/home/cecilia/Documentos/github/meu_workspace/build/ponderada_cecilia/install.log'
+[0.789s] Invoked command in '/home/cecilia/Documentos/github/meu_workspace/src/ponderada_cecilia' returned '0': PYTHONPATH=/home/cecilia/Documentos/github/meu_workspace/build/ponderada_cecilia/prefix_override:/home/cecilia/Documentos/github/meu_workspace/install/ponderada_cecilia/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ponderada_cecilia build --build-base /home/cecilia/Documentos/github/meu_workspace/build/ponderada_cecilia/build install --record /home/cecilia/Documentos/github/meu_workspace/build/ponderada_cecilia/install.log --single-version-externally-managed install_data
