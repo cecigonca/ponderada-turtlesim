@@ -36,7 +36,7 @@ Caso seja necessário instala-los, opte por seguir os passos indicados nesses li
     Comando para instanciar o código da pacote: ```ros2 run ponderada_cecilia ponderada```
 
 ## Vídeo do Projeto 
-Para visualizar na prática, assista esse [vídeo](img/video-demonstracao.webm)
+Para visualizar na prática, assista esse [vídeo](https://drive.google.com/file/d/1vlLJ1lKeuNU9FLW_KN2fCyBqclG5gmUQ/view?usp=sharing)
 
 ## Blocos de Código
 
