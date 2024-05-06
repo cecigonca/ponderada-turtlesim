@@ -27,7 +27,7 @@ class TortugaController(Node):
         if future.result() is not None:
             self.get_logger().info('Tortuga 2 spawnada com sucesso!')
         else:
-            self.get_logger().info('Spawnar tortuga 2 deu errado!')
+            self.get_logger().info('Spawnar tortuga 2 deu errado!')S
 
     def set_pen(self, r, g, b, width, off):  # Definindo a pen para vermelho
         while not self.pen_client.wait_for_service(timeout_sec=1.0):
